@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Bitcoin</title>
+</head>
+<body>
+    <h1>Send Bitcoin</h1>
+    <form method="POST">
+        <label for="sender_private_key">Your Private Key:</label>
+        <input type="text" name="sender_private_key" required><br><br>
+        <label for="recipient_address">Recipient Address:</label>
+        <input type="text" name="recipient_address" required><br><br>
+        <label for="amount_to_send">Amount to Send (tBTC):</label>
+        <input type="number" name="amount_to_send" step="0.0001" required><br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
